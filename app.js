@@ -1,3 +1,8 @@
+import React from "react";
+
+import ReactDOM from "react-dom/client";
+
+
 // let heading = React.createElement(
 
 //             "h1",    //child element
@@ -17,17 +22,17 @@ let parent = React.createElement("div" , {id:"parent"} ,  [    // parent div
 
        React.createElement("div" , {id:"child"} ,             // child div inside parent div 
 
-           [  React.createElement("h1" , {} , "I am h1") ,    //  h1 inside child div
+           [  React.createElement("h1" , {} , "I am h1.1") ,    //  h1 inside child div
 
-              React.createElement("h2" , {} , "I am h2")  ]   // h2 inside child div and sibling of h1 tag
+              React.createElement("h2" , {} , "I am h2.1")  ]   // h2 inside child div and sibling of h1 tag
 
        ) , 
 
        React.createElement("div" , {id:"child2"} ,             // child2 div inside parent div 
 
-              [  React.createElement("h2" , {} , "I am h2") ,    //  h2 inside child2 div
+              [  React.createElement("h2" , {} , "I am h2.2 ") ,    //  h2 inside child2 div
    
-                 React.createElement("h1" , {} , "I am h1")  ]   // h1 inside child2 div and sibling of h2 tag
+                 React.createElement("h1" , {} , "I am h1.2")  ]   // h1 inside child2 div and sibling of h2 tag
    
           )
        ]
