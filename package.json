@@ -1,0 +1,22 @@
+{
+  "name": "react-ptactise",
+  "version": "1.1.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sickohasher/ReactPractise.git"
+  },
+  "author": "jatin yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sickohasher/ReactPractise/issues"
+  },
+  "homepage": "https://github.com/sickohasher/ReactPractise#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
