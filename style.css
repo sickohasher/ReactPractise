@@ -1,5 +1,23 @@
-#parent{
-    color: rgb(255, 255, 0);
-    background-color: brown;
+h1{
+    color: rgb(255, 25, 156);
     width: fit-content;
+}
+
+.head{
+    
+    color: rgb(14, 194, 243);
+    
+}
+
+
+.headh1{
+
+    color: rgb(247, 28, 86);
+
+}
+
+
+.head2{
+
+    color: rgb(16, 255, 112);
 }

@@ -4,6 +4,11 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+     
+    "startDev": "parcel index.html",  
+
+    "startProduction" : "parcel build index.html",   
+
     "test": "jest"
   },
   "repository": {
